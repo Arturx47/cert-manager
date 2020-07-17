@@ -6271,11 +6271,6 @@ spec:
                 after it is initially set.
               type: string
 ---
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: cert-manager
----
 # Source: cert-manager/templates/cainjector-serviceaccount.yaml
 apiVersion: v1
 kind: ServiceAccount
